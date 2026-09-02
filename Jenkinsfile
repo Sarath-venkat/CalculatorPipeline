@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'python sum.py'
+                bat 'python calculator.py'
             }
         }
     }
